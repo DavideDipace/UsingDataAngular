@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { UserItemComponent } from './user-item/user-item.component';
 import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { AppComponentHtmlComponent } from './angular-hello-world/src/app/app.component.html/app.component.html.component';
+import { UserListComponent } from './app-user-list/app-user-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserItemComponent,
     HelloWorldComponent,
-    AppComponentHtmlComponent
+    AppComponentHtmlComponent,
+    UserListComponent
   ],
   imports: [
     BrowserModule
